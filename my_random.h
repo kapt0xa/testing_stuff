@@ -5,9 +5,12 @@
 #include <vector>
 #include <cassert>
 #include <numeric>
+#include <unordered_set>
 
 namespace kapt0xa
 {
+	using std::vector;
+
 	using Randomizer = std::mt19937_64;
 	extern Randomizer default_randomizer;
 
@@ -27,13 +30,16 @@ namespace kapt0xa
 	};
 
 	template<typename Obj>
-	using ChanceWeights = std::vector<ObjectAndProbabilityWeight<Obj>>;
+	using ChanceWeights = vector<ObjectAndProbabilityWeight<Obj>>;
 
 	template<typename Obj>
 	Obj ChooseRandomVariant(const ChanceWeights<Obj>& distribution, Randomizer& randomizer);
 
 	using ChanceWeights_u = ChanceWeights<size_t>;
 	using ChanceWeights_c = ChanceWeights<char>;
+
+	template<typename T>
+	vector<T>& UnorderedUnique(vector<T>& data);
 	
 	//=================================================================================== vvv template implementations vvv
 
@@ -68,5 +74,27 @@ namespace kapt0xa
 		return false;
 			});
 		return result;
+	}
+
+	template<typename T>
+	vector<T>& UnorderedUnique(vector<T>& data)
+	{
+		using std::unordered_set;
+
+		unordered_set<T> unique;
+		for (T& word : data)
+		{
+			unique.insert(move(word));
+		}
+
+		data.clear();
+		data.reserve(unique.size());
+
+		for (const T& word_raw : unique)
+		{
+			data.push_back(move(const_cast<T&>(word_raw)));
+		}
+
+		return data;
 	}
 }

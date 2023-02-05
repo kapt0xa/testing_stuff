@@ -47,7 +47,7 @@ namespace kapt0xa
 	string MakeFrazeologyBrick(Randomizer& randomizer)
 	{
 		string result;
-		size_t size = RandomNum(size_t(2), size_t(4), randomizer);
+		size_t size = ChooseRandomVariant(ChanceWeights_u{ {1, 0.5}, {2, 1.5}, {3, 1.}, {4, 0.25} }, randomizer);
 		result.reserve(size);
 		while (result.size() < size)
 		{
@@ -148,24 +148,5 @@ namespace kapt0xa
 			result.push_back(MakeRandomPhrase(words, randomizer));
 		}
 		return result;
-	}
-
-	strings& UnorderedUnique(strings& data)
-	{
-		UniqueUnordStr unique;
-		for (string& word : data)
-		{
-			unique.insert(move(word));
-		}
-
-		data.clear();
-		data.reserve(unique.size());
-
-		for (const string& word_raw : unique)
-		{
-			data.push_back(move(const_cast<string&>(word_raw)));
-		}
-
-		return data;
 	}
 }

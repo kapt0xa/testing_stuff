@@ -1,9 +1,10 @@
 #include "random_positions.h"
+#include <sstream>
 #include <cassert>
 
 namespace kapt0xa
 {
-	using std::asin;
+	using namespace std;
 	double normalising_coefficient = 90. / asin(1);
 
 	double RandomLatitude(Randomizer& randomizer)
@@ -35,6 +36,4 @@ namespace kapt0xa
 
 		return result;
 	}
-
-
 }

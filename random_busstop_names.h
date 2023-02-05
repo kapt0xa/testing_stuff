@@ -13,5 +13,4 @@ namespace kapt0xa
 	strings MakeRandomWords(size_t count, Randomizer& randomizer);
 	string MakeRandomPhrase(const strings& words, Randomizer& randomizer, size_t min_word_count = 1, size_t max_word_count = 4);
 	strings MakeRandomPhrases(size_t count, const strings& words, Randomizer& randomizer, size_t min_word_count = 1, size_t max_word_count = 4);
-	strings& UnorderedUnique(strings& data);
 }
