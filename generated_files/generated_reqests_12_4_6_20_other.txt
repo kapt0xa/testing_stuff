@@ -1,0 +1,263 @@
+{
+  "base_requests": 
+  [
+    {
+      "latitude": 36.2942,
+      "longitude": 134.479,
+      "name": "lakqnvwo bmxou-EYMYH Abooa",
+      "road_distances": 
+      {
+        "lakqnvwo bmxou-EYMYH Abooa": 360
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": 29.2304,
+      "longitude": -54.7782,
+      "name": "Iowxdof Mayjge UHJQS SVAYA",
+      "road_distances": 
+      {
+        "Busgcixmu-Henqhajxsi-Epngdeutz": 17428644,
+        "dicasqppu WU Fetschyma": 4561871
+      },
+      "type": "Stop"
+    },
+    {
+      "is_roundtrip": true,
+      "name": "Etnyj",
+      "stops": 
+      [
+      ],
+      "type": "Bus"
+    },
+    {
+      "is_roundtrip": true,
+      "name": "GRTNE Rvawemex-aeuhgrogzur magyzola",
+      "stops": 
+      [
+      ],
+      "type": "Bus"
+    },
+    {
+      "latitude": 11.0447,
+      "longitude": 0.755972,
+      "name": "uok xqsbaakud Eyxopgaipufz",
+      "road_distances": 
+      {
+        "ixurvaznxytk": 9783853
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": 19.678,
+      "longitude": -29.1248,
+      "name": "Viyt-Loantuet Zlcikdo viar",
+      "road_distances": 
+      {
+        "sylfozdiv SHNI 5": 3612378
+      },
+      "type": "Stop"
+    },
+    {
+      "is_roundtrip": true,
+      "name": "Eqjbqed-odznybsoz",
+      "stops": 
+      [
+      ],
+      "type": "Bus"
+    },
+    {
+      "latitude": 6.57987,
+      "longitude": -70.0795,
+      "name": "sylfozdiv SHNI 5",
+      "road_distances": 
+      {
+        "sylfozdiv SHNI 5": 0
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": -8.13511,
+      "longitude": 23.1639,
+      "name": "assoucu avtucspo-7",
+      "road_distances": 
+      {
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": 43.2726,
+      "longitude": 96.7139,
+      "name": "ixurvaznxytk",
+      "road_distances": 
+      {
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": -27.9796,
+      "longitude": -115.041,
+      "name": "Busgcixmu-Henqhajxsi-Epngdeutz",
+      "road_distances": 
+      {
+        "Iowxdof Mayjge UHJQS SVAYA": 10979152,
+        "dicasqppu WU Fetschyma": 7317026
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": 27.8298,
+      "longitude": 71.5788,
+      "name": "HA Uqzxtaxef buujpgco",
+      "road_distances": 
+      {
+        "HA Uqzxtaxef buujpgco": 286
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": -9.35144,
+      "longitude": -42.0988,
+      "name": "dicasqppu WU Fetschyma",
+      "road_distances": 
+      {
+        "Busgcixmu-Henqhajxsi-Epngdeutz": 9155474,
+        "IOWZ Ucnio Idtohd": 21230851,
+        "Iowxdof Mayjge UHJQS SVAYA": 5897443,
+        "uok xqsbaakud Eyxopgaipufz": 4871598
+      },
+      "type": "Stop"
+    },
+    {
+      "latitude": 21.5141,
+      "longitude": 82.4495,
+      "name": "IOWZ Ucnio Idtohd",
+      "road_distances": 
+      {
+        "IOWZ Ucnio Idtohd": 493
+      },
+      "type": "Stop"
+    },
+    {
+      "is_roundtrip": true,
+      "name": "amxared",
+      "stops": 
+      [
+      ],
+      "type": "Bus"
+    },
+    {
+      "latitude": -29.0249,
+      "longitude": -112.538,
+      "name": "Tiagh YLK Ayvupifanqhv",
+      "road_distances": 
+      {
+        "Viyt-Loantuet Zlcikdo viar": 18655880
+      },
+      "type": "Stop"
+    }
+  ],
+  "stat_requests": 
+  [
+    {
+      "id": 2,
+      "name": "dicasqppu WU Fetschyma",
+      "type": "Stop"
+    },
+    {
+      "id": 1,
+      "name": "Etnyj",
+      "type": "Bus"
+    },
+    {
+      "id": 8,
+      "name": "Etnyj",
+      "type": "Bus"
+    },
+    {
+      "id": 3,
+      "name": "assoucu avtucspo-7",
+      "type": "Stop"
+    },
+    {
+      "id": 19,
+      "name": "Iowxdof Mayjge UHJQS SVAYA",
+      "type": "Stop"
+    },
+    {
+      "id": 9,
+      "name": "Busgcixmu-Henqhajxsi-Epngdeutz",
+      "type": "Stop"
+    },
+    {
+      "id": 12,
+      "name": "amxared",
+      "type": "Bus"
+    },
+    {
+      "id": 11,
+      "name": "Etnyj",
+      "type": "Bus"
+    },
+    {
+      "id": 17,
+      "name": "IOWZ Ucnio Idtohd",
+      "type": "Stop"
+    },
+    {
+      "id": 7,
+      "name": "GRTNE Rvawemex-aeuhgrogzur magyzola",
+      "type": "Bus"
+    },
+    {
+      "id": 18,
+      "name": "uok xqsbaakud Eyxopgaipufz",
+      "type": "Stop"
+    },
+    {
+      "id": 13,
+      "name": "sylfozdiv SHNI 5",
+      "type": "Stop"
+    },
+    {
+      "id": 10,
+      "name": "assoucu avtucspo-7",
+      "type": "Stop"
+    },
+    {
+      "id": 0,
+      "name": "163 ezjslehhgu",
+      "type": "Stop"
+    },
+    {
+      "id": 16,
+      "name": "Iowxdof Mayjge UHJQS SVAYA",
+      "type": "Stop"
+    },
+    {
+      "id": 4,
+      "name": "GRTNE Rvawemex-aeuhgrogzur magyzola",
+      "type": "Bus"
+    },
+    {
+      "id": 6,
+      "name": "lakqnvwo bmxou-EYMYH Abooa",
+      "type": "Stop"
+    },
+    {
+      "id": 15,
+      "name": "GRTNE Rvawemex-aeuhgrogzur magyzola",
+      "type": "Bus"
+    },
+    {
+      "id": 14,
+      "name": "Qprqhmzymup Ahuvivqgalyk-uhrypjtua Osneotefx",
+      "type": "Stop"
+    },
+    {
+      "id": 5,
+      "name": "GRTNE Rvawemex-aeuhgrogzur magyzola",
+      "type": "Bus"
+    }
+  ]
+}
